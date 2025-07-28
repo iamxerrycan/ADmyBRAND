@@ -3,14 +3,14 @@
 import { Button } from "../components/ui/button";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import img from "../images/AI.jpg";
+import img from '../../public/images/AI.jpg'
 
 export default function Hero() {
   return (
     <header
     id="home"
       role="banner"
-      className="relative min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-12 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-black overflow-hidden"
+      className="relative min-h-screen gap-5 flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-12 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-black overflow-hidden"
     >
       {/* LEFT SIDE - CONTENT */}
       <div className="w-90% max-w-2xl z-10 text-center md:text-left">
@@ -18,7 +18,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: "easeOut" }}
-          className="text-2xl md:text-6xl font-extrabold text-gray-900 dark:text-white leading-tight tracking-tight"
+          className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-white leading-tight tracking-tight"
         >
           Supercharge Your{" "}
           <br className="hidden md:block" />
@@ -32,7 +32,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
-          className="mt-6 text-sm md:text-xl text-gray-600 dark:text-gray-300"
+          className="mt-6 text-sm md:text-lg text-gray-600 dark:text-gray-300"
         >
           Unlock powerful automation and data-driven insights to elevate your
           brand’s digital campaigns with our cutting-edge AI Suite.
@@ -61,15 +61,15 @@ export default function Hero() {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, delay: 0.5 }}
-        className="w-full md:w-auto mb-10 md:mb-0 flex justify-center z-0"
+        className="w-90% md:w-auto mb-10 md:mb-0 flex justify-center z-0"
       >
         <div className="relative w-[320px] md:w-[450px]">
           <Image
             src={img}
             alt="AI Marketing Illustration"
-            width={450}
-            height={450}
-            className="rounded-3xl shadow-2xl object-cover"
+            width={440}
+            height={440}
+            className="rounded-3xl object-cover"
             priority
           />
           <div className="absolute -inset-1 blur-lg bg-indigo-400/30 rounded-3xl z-[-1]" />

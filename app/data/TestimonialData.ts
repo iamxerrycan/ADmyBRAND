@@ -3,14 +3,14 @@ export const testimonials = [
   {
     name: "Aman Verma",
     role: "Marketing Lead, Zentech",
-    photo: "/testimonials/user1.jpg",
+    photo: "/images/men1.jpg",
     quote:
       "This product transformed our campaign strategy. The insights and automation are unmatched!",
   },
   {
     name: "Sonia Patel",
     role: "Founder, Creativo",
-    photo: "/testimonials/user2.jpg",
+    photo: "/images/women.jpg",
     quote:
       "We saw 300% growth in engagement within weeks. The best decision we made for our brand!",
   },
@@ -18,7 +18,7 @@ export const testimonials = [
     name: "Kunal Sinha",
     role: "Product Manager, SparkNow",
     photo:
-      "/testimonials/user3.jpg",
+      "/images/men2.jpg",
     quote:
       "Intuitive, reliable, and powerful — it saves us hours every day. Highly recommended!",
   },

@@ -56,8 +56,8 @@ A stunning, responsive landing page for the fictional **ADmyBRAND AI Suite**, sh
 
 ### AI vs Manual Work
 
-- **AI-generated**: ~40% (initial layouts, animations, components)
-- **Manual coding**: ~60% (styling, responsiveness, final polishing)
+- **AI-generated**: ~30% (initial layouts, animations)
+- **Manual coding**: ~70% (styling, responsiveness, final polishing)
 - **Customization**: Adapted AI code to match brand identity, add scroll triggers, optimize spacing
 
 ---

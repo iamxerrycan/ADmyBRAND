@@ -46,6 +46,7 @@ export default function ContactForm() {
     const validationErrors = validate();
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
+      setTimeout(() => setErrors({}), 3000);
       return;
     }
 
@@ -54,6 +55,7 @@ export default function ContactForm() {
     setFormData({ name: "", email: "", message: "" });
 
     setTimeout(() => setSubmitted(false), 4000);
+    
   };
 
   return (

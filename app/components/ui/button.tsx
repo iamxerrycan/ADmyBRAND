@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import * as React from "react";
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "default" | "outline";
+  variant?: "default" | "outline" | "link";
 }
 
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
@@ -12,6 +12,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const variants = {
       default: "bg-indigo-600 text-white hover:bg-indigo-700",
       outline: "border border-indigo-600 text-indigo-600 hover:bg-indigo-50",
+      link: "text-indigo-600 underline underline-offset-4 hover:text-indigo-800",
     };
 
     return (
@@ -25,3 +26,4 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 );
 
 Button.displayName = "Button";
+

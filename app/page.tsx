@@ -5,6 +5,7 @@ import Pricing from './sections/Pricing';
 import Testimonials from './sections/Testimonial';
 import Faq from './sections/Faq';
 import ContactForm from './sections/ContactForm';
+import BlogSection from './sections/BlogSection';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Pricing />
       <Testimonials/>
       <Faq />
+      <BlogSection />
       <ContactForm/>
       <Footer/>
     </div>

@@ -3,6 +3,9 @@
 import { useState } from 'react';
 import { navLinks } from './navLinks';
 import clsx from 'clsx';
+import Link from 'next/link';
+
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,13 +23,13 @@ const Navbar = () => {
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
                 href={link.href}
                 className="text-sm font-semibold text-gray-800 dark:text-gray-200 hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
           </nav>
 
@@ -52,14 +55,14 @@ const Navbar = () => {
       >
         <nav className="space-y-3">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.name}
               href={link.href}
               onClick={() => setIsOpen(false)}
               className="block text-base font-medium text-gray-800 dark:text-gray-200 hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors"
             >
               {link.name}
-            </a>
+            </Link>
           ))}
         </nav>
       </div>

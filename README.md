@@ -22,15 +22,25 @@ A stunning, responsive landing page for the fictional **ADmyBRAND AI Suite**, sh
 
 ## 📦 Features
 
-- ✨ Hero section with CTA and animated gradient
-- ✅ Features section (6+ cards with icons)
-- 💰 Pricing section with 3 tier comparison
-- 🌟 Testimonials carousel (Swiper)
-- ❓ FAQ section (accordion)
-- 📬 Contact form with validation
-- 📱 Mobile-first responsive layout
-- 🎨 Smooth scroll animations (Framer Motion)
-- ♻️ 8+ Reusable UI components
+🌐 Next.js 14 and Tailwind CSS for blazing-fast performance and modern UI
+
+⚙️ Reusable components and App Router (TS) architecture
+
+💫 Framer Motion animations and Lottie for engaging interactions
+
+🧠 Built with the help of AI tools like ChatGPT, GitHub Copilot, and v0.dev
+
+📝 Blog section with dynamic routing using slugs
+
+📽️ Hero section includes Lottie animation for visual storytelling
+
+📬 Contact form with React Hook Form + Zod validation
+
+🧩 Includes 8+ components like pricing, FAQ accordion, testimonial carousel, and more
+
+🎯 Fully responsive, mobile-first design with accessible markup and best practices
+
+🚀 Deployed on Vercel and live at admybrands.netlify.app
 
 ---
 
@@ -39,13 +49,13 @@ A stunning, responsive landing page for the fictional **ADmyBRAND AI Suite**, sh
 > This project was built using modern AI tools to accelerate development while ensuring design and code quality.
 
 ### Tools Used
+
 - ChatGPT (architecture planning, section scaffolding)
 - GitHub Copilot (code suggestions)
 - v0.dev (component generation)
 
-
-
 ### AI vs Manual Work
+
 - **AI-generated**: ~40% (initial layouts, animations, components)
 - **Manual coding**: ~60% (styling, responsiveness, final polishing)
 - **Customization**: Adapted AI code to match brand identity, add scroll triggers, optimize spacing
@@ -61,7 +71,8 @@ git https://github.com/iamxerrycan/ADmyBRAND
 cd admybrand
 
 ```
---- 
+
+---
 
 ### 2. Install Dependencies
 
@@ -89,4 +100,3 @@ If you'd like to connect or collaborate:
 MIT License © 2025 Rajshish Singh
 
 ---
-

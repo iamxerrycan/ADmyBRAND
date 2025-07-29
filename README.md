@@ -13,10 +13,10 @@ A stunning, responsive landing page for the fictional **ADmyBRAND AI Suite**, sh
 - **Next.js 14** (App Router, TypeScript)
 - **Tailwind CSS** (Modern utility-first styling)
 - **Framer Motion** (Scroll animations, transitions)
-- **React Hook Form + Zod** (Form validation)
+- **React Hook Form** (Form validation)
 - **Lucide Icons** (Beautiful icon set)
 - **Next/Image** (Optimized images)
-- **Deployed on Vercel**
+- **Deployed on Netlyfy**
 
 ---
 

@@ -61,8 +61,8 @@ export default function ContactForm() {
   return (
     <section
       id="contact"
-      className="bg-gradient-to-b from-white to-gray-100 dark:from-gray-900 dark:to-gray-800 py-24 px-4 sm:px-6 lg:px-8"
-    >
+      className="relative bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-100 via-white to-gray-300 dark:from-gray-900 dark:via-gray-950 dark:to-black py-24 px-4 sm:px-6 lg:px-8"
+ >
       <div className="max-w-3xl mx-auto text-center mb-16">
         <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white">
           Get in Touch

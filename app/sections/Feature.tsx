@@ -9,7 +9,7 @@ export default function FeatureSection() {
   return (
     <section
       id="feature"
-      className="relative py-20 md:py-24 lg:py-32 bg-gradient-to-b from-white via-gray-50 to-gray-100 dark:from-black dark:via-gray-900 dark:to-gray-950 px-6 md:px-16"
+      className="relative bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-100 via-white to-gray-300 dark:from-gray-900 dark:via-gray-950 dark:to-black py-24 px-4 sm:px-6 lg:px-8"
     >
       {/* Decorative blobs */}
       <div className="absolute inset-0 z-0 pointer-events-none opacity-10">

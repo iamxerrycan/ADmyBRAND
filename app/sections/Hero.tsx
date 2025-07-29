@@ -2,17 +2,17 @@
 
 import { Button } from "../components/ui/button";
 import { motion } from "framer-motion";
-import Image from "next/image";
-import img from '../../public/images/AI.jpg'
+import Lottie from "lottie-react";
+import ripple from "../../public/images/AI.json";
 
 export default function Hero() {
   return (
     <header
-    id="home"
+      id="home"
       role="banner"
       className="relative min-h-screen gap-5 flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-12 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-black overflow-hidden"
     >
-      {/* LEFT SIDE - CONTENT */}
+      {/* LEFT SIDE */}
       <div className="w-90% max-w-2xl z-10 text-center md:text-left">
         <motion.h1
           initial={{ opacity: 0, y: -40 }}
@@ -20,8 +20,7 @@ export default function Hero() {
           transition={{ duration: 0.9, ease: "easeOut" }}
           className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-white leading-tight tracking-tight"
         >
-          Supercharge Your{" "}
-          <br className="hidden md:block" />
+          Supercharge Your <br className="hidden md:block" />
           AI Marketing with{" "}
           <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
             ADmyBRAND
@@ -56,7 +55,7 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      {/* RIGHT SIDE - IMAGE */}
+      {/* RIGHT SIDE - LOTTIE ANIMATION */}
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -64,14 +63,7 @@ export default function Hero() {
         className="w-90% md:w-auto mb-10 md:mb-0 flex justify-center z-0"
       >
         <div className="relative w-[320px] md:w-[450px]">
-          <Image
-            src={img}
-            alt="AI Marketing Illustration"
-            width={440}
-            height={440}
-            className="rounded-3xl object-cover"
-            priority
-          />
+          <Lottie animationData={ripple} loop autoplay className="rounded-3xl" />
           <div className="absolute -inset-1 blur-lg bg-indigo-400/30 rounded-3xl z-[-1]" />
         </div>
       </motion.div>

@@ -35,8 +35,8 @@ export default function TestimonialsCarousel() {
   return (
     <section
       id="testimonials"
-      className="bg-gray-50 dark:bg-gray-950 py-20 px-4 sm:px-6 md:px-8 lg:px-16 mb-16 sm:mb-24"
-      aria-label="Customer Testimonials"
+     className="relative bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-100 via-white to-gray-300 dark:from-gray-900 dark:via-gray-950 dark:to-black py-24 px-4 sm:px-6 lg:px-8"
+     aria-label="Customer Testimonials"
     >
       <div className="text-center mb-12 max-w-2xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 dark:text-white mb-4">

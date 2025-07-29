@@ -12,7 +12,8 @@ export default function Faq() {
   };
 
   return (
-    <section id="faq" className="bg-gray-50 dark:bg-gray-900 py-20 px-4 sm:px-6 lg:px-16">
+    <section id="faq" className="relative bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-100 via-white to-gray-300 dark:from-gray-900 dark:via-gray-950 dark:to-black py-24 px-4 sm:px-6 lg:px-8"
+>
       <div className="max-w-4xl mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white">FAQs</h2>
         <p className="text-lg text-gray-600 dark:text-gray-400 mt-2">

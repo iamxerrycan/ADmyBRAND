@@ -30,7 +30,8 @@ const BlogSection = () => {
   ];
 
   return (
-    <section className="px-6 md:px-16 py-20 bg-gray-50 dark:bg-gray-900">
+    <section className="relative bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-100 via-white to-gray-300 dark:from-gray-900 dark:via-gray-950 dark:to-black py-24 px-4 sm:px-6 lg:px-8"
+>
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
         Insights & Resources
       </h2>

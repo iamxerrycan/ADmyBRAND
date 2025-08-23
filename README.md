@@ -44,24 +44,6 @@ A stunning, responsive landing page for the fictional **ADmyBRAND AI Suite**, sh
 
 ---
 
-## 🧠 AI Usage Report
-
-> This project was built using modern AI tools to accelerate development while ensuring design and code quality.
-
-### Tools Used
-
-- ChatGPT (architecture planning, section scaffolding)
-- GitHub Copilot (code suggestions)
-- v0.dev (component generation)
-
-### AI vs Manual Work
-
-- **AI-generated**: ~30% (initial layouts, animations)
-- **Manual coding**: ~70% (styling, responsiveness, final polishing)
-- **Customization**: Adapted AI code to match brand identity, add scroll triggers, optimize spacing
-
----
-
 ## 📦 Getting Started
 
 ### 1. Clone the Repo
